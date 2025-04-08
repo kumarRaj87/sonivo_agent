@@ -59,7 +59,7 @@ const MobileSidebar = ({ isOpen, onClose, handleLogout }) => {
                         )
                     ))}
                     <button
-                        className="p-2 rounded-md text-sm w-full justify-start items-center flex bg-[#F7FAFC] hover:bg-[#F7FAFC] text-[#1C2833] gap-2"
+                        className="p-2 rounded-md mt-2 text-sm w-full justify-start items-center flex bg-[#F7FAFC] hover:bg-[#F7FAFC] text-[#1C2833] gap-2"
                         onClick={handleLogout}
                     >
                         <FiLogOut className='text-[#1C2833] h-[18px] w-[18px]' />
