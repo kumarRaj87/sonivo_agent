@@ -22,6 +22,7 @@ const Sidebar = () => {
     const menuItems = [
         { divider: true, label: 'Useful' },
         { path: '/work', icon: MdSpaceDashboard, label: 'Work' },
+        
         // { divider: true, label: 'Voice' },
         // { path: '/dailer', icon: MdDialerSip, label: 'Dailer' },
         // { path: '/prepare-device', icon: MdWifiCalling3, label: 'Prepare device' },

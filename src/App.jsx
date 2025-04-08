@@ -17,6 +17,7 @@ import CallForceTable from './components/CallForce/CallForceTable';
 import AgentIncomingCallsTable from './components/AgentIncomingCalls/AgentIncomingCallsTable';
 import Dailer from './components/Dailer/Dailer';
 import DeviceManager from './deviceManager/DeviceManager';
+import WorkLeadsLayout from './components/WorkLeads/WorkLeadsLayout';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(() => {
@@ -56,7 +57,7 @@ function App() {
 
       {isAuthenticated ? (
         <Route element={<Layout handleLogout={handleLogout} />}>
-          <Route path="/work" element={<Dashboard />} />
+          <Route path="/work" element={<WorkLeadsLayout />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       ) : (
