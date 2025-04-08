@@ -11,7 +11,7 @@ export default {
           DEFAULT: '#0A1F31',
           200: '#F7FAFC',
           300:'#626A72',
-          400:'#21374B',
+          400:'#2e4a62',
           500:'#0A1F31'
         },
         accent:{
