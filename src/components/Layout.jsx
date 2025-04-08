@@ -13,15 +13,15 @@ function Layout({ handleLogout }) {
 
   return (
     <div className="min-h-screen bg-primary-200">
-      <Sidebar />
+      <Sidebar handleLogout={handleLogout} />
       <MobileSidebar
         isOpen={mobileSidebarOpen}
         onClose={() => setMobileSidebarOpen(false)}
+        handleLogout={handleLogout}
       />
 
       <div className="flex flex-col w-full lg:pl-60">
         <Navbar
-          handleLogout={handleLogout}
           toggleSidebar={toggleMobileSidebar}
         />
         <main className="p-6">

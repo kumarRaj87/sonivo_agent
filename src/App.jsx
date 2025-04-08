@@ -4,19 +4,7 @@ import Login from './components/Login';
 import Layout from './components/Layout';
 import Dashboard from './components/Dashboard';
 import NotFound from './notfound/NotFound';
-import PhoneBook from './productivity/phonebook/PhoneBook';
 import { toast } from 'sonner';
-import CallFlow from './productivity/callflow/CallFlow';
-import PrepareDevice from './components/PrepareDevice/PrepareDevice';
-import CallBroadcast from './components/CallBroadcast/CallBroadcast';
-import Messaging from './messaging/Messaging';
-import FlowCapture from './productivity/callcapture/FlowCapture';
-import CreateAgentTable from './components/CreateAgent/CreateAgentTable';
-import CallForceTable from './components/CallForce/CallForceTable';
-
-import AgentIncomingCallsTable from './components/AgentIncomingCalls/AgentIncomingCallsTable';
-import Dailer from './components/Dailer/Dailer';
-import DeviceManager from './deviceManager/DeviceManager';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(() => {
