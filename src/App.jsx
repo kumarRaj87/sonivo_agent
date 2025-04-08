@@ -2,7 +2,6 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Login from './components/Login';
 import Layout from './components/Layout';
-
 import NotFound from './notfound/NotFound';
 import { toast } from 'sonner';
 import WorkLeadsLayout from './components/WorkLeads/WorkLeadsLayout';
